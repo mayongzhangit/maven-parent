@@ -5,12 +5,13 @@
         <groupId>com.myz</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>module-profile</artifactId>
+    <artifactId>maven-profile</artifactId>
     <packaging>jar</packaging>
 
-    <name>module-profile</name>
+    <name>maven-profile</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -21,23 +22,21 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>3.8.1</version>
+            <version>4.12</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
 
+    <!--步骤一：定义profile-->
     <profiles>
         <profile>
             <id>local</id>
             <properties>
                 <active-profile>local</active-profile>
             </properties>
-        </profile>
-        <profile>
-            <id>dev</id>
-            <properties>
-                <active-profile>dev</active-profile>
-            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
         </profile>
         <profile>
             <id>test</id>
@@ -46,13 +45,38 @@
             </properties>
         </profile>
     </profiles>
+
     <build>
+        <!--步骤二：使用步骤一定义的profile指定resource路径-->
+        <resources>
+            <!--两个resource下directory目录或者文件名一致，则一定一个为准，不会合并-->
+            <resource>
+                <directory>src/main/resources</directory>
+                <!--步骤三：开启解析占位符标志-->
+                <filtering>true</filtering>
+                <excludes>
+                    <exclude>A.properties</exclude>
+                </excludes>
+            </resource>
+            <resource>
+                <directory>src/main/config/${active-profile}</directory>
+            </resource>
+        </resources>
 
         <plugins>
-            <!--<plugin>-->
-                <!--<groupId>org.apache.maven.plugins</groupId>-->
-                <!--<artifactId>maven-resources-plugin</artifactId>-->
-            <!--</plugin>-->
+            <!--步骤三：[可选]指定自定义的占位符
+                Spring Boot中就显示的禁用了默认占位符${}，声明@为占位符
+            -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <configuration>
+                    <!--默认的${}和这里指定的@ 占位符-->
+                    <delimiters>@</delimiters>
+                    <!--这里禁用掉${}占位符-->
+                    <!--<useDefaultDelimiters>false</useDefaultDelimiters>-->
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 </project>
