@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!--<parent>-->
+        <!--<artifactId>maven-plugins</artifactId>-->
+        <!--<groupId>com.myz</groupId>-->
+        <!--<version>1.0-SNAPSHOT</version>-->
+    <!--</parent>-->
+    <modelVersion>4.0.0</modelVersion>
+    <!-- 官方网站： http://maven.apache.org/plugin-developers/index.html -->
+
+    <!--官方推荐命名方式 xxx-maven-plugin -->
+    <artifactId>hello-maven-plugin</artifactId>
+    <groupId>com.myz</groupId>
+    <version>1.0-SNAPSHOT</version>
+
+    <!--步骤1 打包为maven-plugin-->
+    <packaging>maven-plugin</packaging>
+
+    <name>hello-maven-plugin</name>
+    <url>http://maven.apache.org</url>
+
+    <dependencies>
+        <!--步骤2 引入maven插件依赖-->
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-plugin-api</artifactId>
+            <version>3.0</version>
+        </dependency>
+        <!-- dependencies to annotations -->
+        <dependency>
+            <groupId>org.apache.maven.plugin-tools</groupId>
+            <artifactId>maven-plugin-annotations</artifactId>
+            <version>3.4</version>
+        </dependency>
+    </dependencies>
+    <!--步骤3 install到本地-->
+    <!--步骤4
+    到测试工程通过build plugins plugin引入
+    执行mvn com.myz:hello-maven-plugin:1.0-SNAPSHOT:hello
+    执行mvn hello:hello 因为你的命名规范{}-maven-plugin
+    -->
+    <!--步骤五 将插件目标绑定到一个生命周期比如package-->
+
+    <build>
+        <plugins>
+            <!--步骤六 debug插件，将自己作为依赖引入 ，使用方先执行mvndebug hello:hello-->
+            <plugin>
+                <groupId>com.myz</groupId>
+                <artifactId>hello-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>

@@ -6,12 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="hello-maven-plugin" />
+        <module name="maven-profile" />
         <module name="module-profile" />
+        <module name="test-hello-maven-plugin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="hello-maven-plugin" target="1.5" />
       <module name="maven-parent" target="1.5" />
+      <module name="maven-plugins" target="1.5" />
+      <module name="maven-profile" target="1.5" />
       <module name="module-profile" target="1.5" />
+      <module name="test-hello-maven-plugin" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

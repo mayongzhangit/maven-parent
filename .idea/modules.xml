@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/maven-plugins/hello-maven-plugin/hello-maven-plugin.iml" filepath="$PROJECT_DIR$/maven-plugins/hello-maven-plugin/hello-maven-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-parent.iml" filepath="$PROJECT_DIR$/maven-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-plugins/maven-plugins.iml" filepath="$PROJECT_DIR$/maven-plugins/maven-plugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-profile/maven-profile.iml" filepath="$PROJECT_DIR$/maven-profile/maven-profile.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-profile/module-profile.iml" filepath="$PROJECT_DIR$/maven-profile/module-profile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-plugins/test-hello-maven-plugin/test-hello-maven-plugin.iml" filepath="$PROJECT_DIR$/maven-plugins/test-hello-maven-plugin/test-hello-maven-plugin.iml" />
     </modules>
   </component>
 </project>

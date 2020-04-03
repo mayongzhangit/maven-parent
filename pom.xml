@@ -3,10 +3,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.myz</groupId>
-        <artifactId>maven-parent</artifactId>
-        <version>1.0-SNAPSHOT</version>
+    <artifactId>maven-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
     <modules>
         <module>maven-profile</module>
+        <module>maven-plugins</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -16,9 +18,5 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-
-
-
 
 </project>
