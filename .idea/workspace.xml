@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4c8757f-655b-49d1-828b-5e42e0c57f95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_plugin_tools_maven_plugin_annotations_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_classworlds_2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_component_annotations_1_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_2_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_guice_noaop_2_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_inject_bean_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_inject_plexus_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven-plugins/hello-maven-plugin/hello-maven-plugin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven-plugins/hello-maven-plugin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven-plugins/hello-maven-plugin/src/main/java/com/myz/maven/plugin/HelloMojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-plugin/hello-world-plugin/hello-world-plugin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/maven-plugins/maven-plugins.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-plugin/hello-world-plugin/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-plugin/maven-plugin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/maven-plugins/maven-plugin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-plugin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven-plugins/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-plugin/test-plugin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven-plugins/test-hello-maven-plugin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-plugin/test-plugin/test-plugin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/maven-plugins/test-hello-maven-plugin/test-hello-maven-plugin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-profile/maven-profile.iml" beforeDir="false" afterPath="$PROJECT_DIR$/maven-profile/maven-profile.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-profile/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/maven-profile/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-profile/target/maven-profile-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/maven-profile/target/maven-profile-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-profile/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/maven-profile/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-profile/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/maven-profile/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-profile/target/surefire-reports/TEST-com.myz.maven.profile.PropertiesReaderTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven-profile/target/surefire-reports/TEST-com.myz.maven.profile.PropertiesReaderTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-profile/target/surefire-reports/com.myz.maven.profile.PropertiesReaderTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/maven-profile/target/surefire-reports/com.myz.maven.profile.PropertiesReaderTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/maven-profile/target/" />
@@ -50,97 +19,38 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1167458808">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/maven-plugins/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/maven-plugins/hello-maven-plugin/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/maven-plugins/hello-maven-plugin/src/main/java/com/myz/maven/plugin/HelloMojo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar!/org/apache/maven/plugin/logging/Log.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/maven/plugin-tools/maven-plugin-annotations/3.4/maven-plugin-annotations-3.4-sources.jar!/org/apache/maven/plugins/annotations/Execute.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="35" column="33" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/maven/plugin-tools/maven-plugin-annotations/3.4/maven-plugin-annotations-3.4-sources.jar!/org/apache/maven/plugins/annotations/LifecyclePhase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/maven/plugin-tools/maven-plugin-annotations/3.4/maven-plugin-annotations-3.4-sources.jar!/org/apache/maven/plugins/annotations/Parameter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/maven/plugin-tools/maven-plugin-annotations/3.4/maven-plugin-annotations-3.4-sources.jar!/org/apache/maven/plugins/annotations/Mojo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="YarmPluginDependencyUpdater" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+              <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
             </state>
           </provider>
+          <provider editor-type-id="YarmPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/maven-plugins/test-hello-maven-plugin/pom.xml">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="22" selection-end-column="36" />
+            <state relative-caret-position="430">
+              <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -179,6 +89,7 @@
         <option value="$PROJECT_DIR$/maven-plugins/hello-maven-plugin/src/main/java/com/myz/maven/plugin/HelloMojo.java" />
         <option value="$PROJECT_DIR$/maven-plugins/hello-maven-plugin/pom.xml" />
         <option value="$PROJECT_DIR$/maven-plugins/test-hello-maven-plugin/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -195,6 +106,11 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="maven-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="maven-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -249,6 +165,15 @@
           <item name="Modules" type="87271259:MavenProjectsStructure$ModulesNode" />
           <item name="test-hello-maven-plugin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="maven-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Modules" type="87271259:MavenProjectsStructure$ModulesNode" />
+          <item name="maven-plugins" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Modules" type="87271259:MavenProjectsStructure$ModulesNode" />
+          <item name="test-hello-maven-plugin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
       </expand>
       <select />
     </treeState>
@@ -259,11 +184,15 @@
     <option name="width" value="1440" />
     <option name="height" value="831" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,84 +200,16 @@
               <item name="maven-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="maven-parent" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="maven-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-plugins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-maven-plugin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-maven-plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-maven-plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-maven-plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-maven-plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="plugin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="test-hello-maven-plugin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="test-hello-maven-plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="test-hello-maven-plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585932043666" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591758913815" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -413,13 +274,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5708000" />
+    <option name="totallyTimeSpent" value="5804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1560" y="66" width="1440" height="831" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27377522" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -445,7 +306,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.19596542" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.19527897" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,11 +329,13 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="YarmPluginDependencyUpdater" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
         </state>
       </provider>
+      <provider editor-type-id="YarmPluginDependencyAnalyzer" />
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/maven/plugin-tools/maven-plugin-annotations/3.4/maven-plugin-annotations-3.4.jar!/org/apache/maven/plugins/annotations/Mojo.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -481,20 +344,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/maven/plugin-tools/maven-plugin-annotations/3.4/maven-plugin-annotations-3.4-sources.jar!/org/apache/maven/plugins/annotations/Mojo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/maven/plugin-tools/maven-plugin-annotations/3.4/maven-plugin-annotations-3.4-sources.jar!/org/apache/maven/plugins/annotations/Parameter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/maven/plugin-tools/maven-plugin-annotations/3.4/maven-plugin-annotations-3.4-sources.jar!/org/apache/maven/plugins/annotations/Mojo.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/maven/plugin-tools/maven-plugin-annotations/3.4/maven-plugin-annotations-3.4-sources.jar!/org/apache/maven/plugins/annotations/Parameter.java" />
     <entry file="file://$PROJECT_DIR$/maven-plugins/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -502,20 +353,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/maven/plugin-tools/maven-plugin-annotations/3.4/maven-plugin-annotations-3.4-sources.jar!/org/apache/maven/plugins/annotations/LifecyclePhase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/maven/plugin-tools/maven-plugin-annotations/3.4/maven-plugin-annotations-3.4-sources.jar!/org/apache/maven/plugins/annotations/Execute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="35" column="33" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/maven/plugin-tools/maven-plugin-annotations/3.4/maven-plugin-annotations-3.4-sources.jar!/org/apache/maven/plugins/annotations/LifecyclePhase.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/maven/plugin-tools/maven-plugin-annotations/3.4/maven-plugin-annotations-3.4-sources.jar!/org/apache/maven/plugins/annotations/Execute.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar!/org/apache/maven/plugin/logging/Log.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
@@ -544,6 +383,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="22" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
         </state>
       </provider>
     </entry>
